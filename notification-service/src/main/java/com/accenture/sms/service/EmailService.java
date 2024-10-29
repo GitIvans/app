@@ -15,7 +15,7 @@ import java.io.IOException;
 @Service
 public class EmailService {
 
-    private final String apiKey = ""; // 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
+//    private final String apiKey = ""; // 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
 
     public void sendNotification(String to, String subject, String text) {
         Email from = new Email("bestsubmanager@outlook.com");
