@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  user-service:
+    build:
+      context: ./user-service
+    ports:
+      - "8086:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container:3306/smsdb_user
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Pvmvuqtnvdvbns12!@
+    depends_on:
+      - mysql-container
+
+  subscription-service:
+    build:
+      context: ./subscription-service
+    ports:
+      - "8087:8082"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container:3306/smsdb_subscription
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Pvmvuqtnvdvbns12!@
+    depends_on:
+      - mysql-container
+
+  notification-service:
+    build:
+      context: ./notification-service
+    ports:
+      - "8088:8083"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container:3306/smsdb_notifications
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Pvmvuqtnvdvbns12!@
+    depends_on:
+      - mysql-container
+
+  analytics-service:
+    build:
+      context: ./analytics-service
+    ports:
+      - "8089:8084"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container:3306/smsdb_analytics
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Pvmvuqtnvdvbns12!@
+    depends_on:
+      - mysql-container
+
+  auth-service:
+    build:
+      context: ./auth-service
+    ports:
+      - "8090:8085"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-container:3306/smsdb_auth
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Pvmvuqtnvdvbns12!@
+
+
+  mysql-container:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Pvmvuqtnvdvbns12!@
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  mysql-data:
