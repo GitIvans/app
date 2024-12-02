@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06108495-fc90-41fd-a7b0-c844ededd31a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/accenture/sms/tests/controllers/UserInfoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/accenture/sms/tests/service/UserInfoServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/AnalyticsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/AnalyticsServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/clients/SubscriptionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/controllers/SubscriptionAnalyticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/controllers/SubscriptionAnalyticsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/dto/SubscriptionInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/dto/SubscriptionInfoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/model/SubscriptionAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/model/SubscriptionAnalytics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/repositories/SubscriptionAnalyticsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/repositories/SubscriptionAnalyticsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/repositories/model/SubscriptionAnalyticsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/repositories/model/SubscriptionAnalyticsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/service/SubscriptionAnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/service/SubscriptionAnalyticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/service/SubscriptionAnalyticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/java/com/accenture/sms/service/SubscriptionAnalyticsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/src/main/java/com/accenture/sms/SubscriptionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-service/src/main/java/com/accenture/sms/SubscriptionServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/src/main/java/com/accenture/sms/controllers/SubscriptionInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-service/src/main/java/com/accenture/sms/controllers/SubscriptionInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/subscription-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service" beforeDir="false" afterPath="$PROJECT_DIR$/user-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/controllers/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/controllers/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/repositories/UserInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/repositories/UserInfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/repositories/model/UserInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/repositories/model/UserInfoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/service/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/service/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/swagger/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/accenture/sms/swagger/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/analytics-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -64,7 +26,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GitIvans/analytics-service&quot;,
+    &quot;url&quot;: &quot;https://github.com/GitIvans/app&quot;,
     &quot;accountId&quot;: &quot;800a0038-77ce-48f9-b92a-56a858ab4c3b&quot;
   }
 }</component>
@@ -76,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ivans Kuropatkins/Desktop/application-repository&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ivans Kuropatkins/Desktop/application-repository",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
